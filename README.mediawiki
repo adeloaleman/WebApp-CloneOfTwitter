@@ -1,0 +1,9 @@
+== Web App - Clone of Twitter ==
+Visit the Webb App at: http://37.59.121.119
+
+
+<br />
+<br />
+This Web Application was developed using:
+* '''Back-end:''' ''Node.js (Express) (TypeScript)''
+* '''Front-end:''' ''React (TypeScript)''
