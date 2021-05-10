@@ -1,0 +1,13 @@
+Para crear la base de datos, lo hice a través de funciones js a ser ejecutadas en la console del web browser. Estos archivos fueron simplemente creados a través the la transpilación de las correspondientes funciones creadas en TypeScript y que se encuentran en «backEnd-express/src/frontend/client.ts»:
+- 1create_functions.js
+- 2create_users.js
+- 3create_token.js
+- 4create_tweets.js
+- 5create_comments.js
+
+Lo dividí en 5 archivos porque, por alguna razón, el Script no se ejecuta línea por línea en el orden ingresado en la console. Entonces, si copio y pego todo en la console del web browser, se generan errores porque, por ejemplo, el token tiene que ser generado antes de crear los tweets, etc. Es por lo tanto necesario ejecutar primero «1create_functions.js», luego «- 2create_users.js» y así hasta el 5.
+
+This function has to be executed after running the project; this because when we run the project the database tablas are automatically created, and we need to have the tables to after insert the data using these functions. 
+
+
+To insert data into a database in a remote server, we just have to replace «localhost» by the corresponding IP (52.212.210.222) in the fuctions defined in «1create_functions.js»

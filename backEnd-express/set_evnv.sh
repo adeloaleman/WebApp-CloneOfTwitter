@@ -8,5 +8,5 @@ export DATABASE_DB=twitterclone_db
 
 export AUTH_SECRET=miclaveprivada
 
-sudo docker start 3234e2864a8e
+# sudo docker start 3234e2864a8e
 

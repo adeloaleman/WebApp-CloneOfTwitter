@@ -1,9 +1,9 @@
 import { createConnection } from "typeorm";
 
-import { Users }   from "./src/backend/entities/users";
+import { Users }    from "./src/backend/entities/users";
 import { Tweet }    from "./src/backend/entities/tweet";
-import { Comment } from "./src/backend/entities/comment";
-import { Like }    from "./src/backend/entities/like";
+import { Comment }  from "./src/backend/entities/comment";
+import { Like }     from "./src/backend/entities/like";
 
 
 export async function createDbConnection() {
